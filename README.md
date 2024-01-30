@@ -20,7 +20,9 @@ This repository contains the code for a simple music player web app. The app all
   
 - **CSS:** Styling and layout of the web pages.
 
-- **Vanilla JavaScript:** Implementation of music playback functionality.
+- **Vanilla JavaScript:** Implementation of music playback functionality
+ 
+- **JSON:** Metadata for each album is stored in JSON format (info.json).
 
 ## How to Use
 
