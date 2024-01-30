@@ -55,7 +55,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - Fonts used in the project are sourced from [Google Fonts](https://fonts.google.com/).
-- Icons used in the project are sourced from [HugeIcons](https://hugeicons.com/).
+- Icons used in the project are sourced from [Huge Icons](https://hugeicons.com/).
 
 
 Feel free to contribute, report issues, or suggest improvements. Happy listening! 🎶
