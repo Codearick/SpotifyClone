@@ -20,7 +20,7 @@ This repository contains the code for a simple music player web app. The app all
   
 - **CSS:** Styling and layout of the web pages.
 
-- **JavaScript:** Implementation of music playback functionality.
+- **Vanilla JavaScript:** Implementation of music playback functionality.
 
 ## How to Use
 
@@ -52,7 +52,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Icons used in the project are sourced from [FontAwesome](https://fontawesome.com/).
+- Fonts used in the project are sourced from [Google Fonts](https://fonts.google.com/).
+- Icons used in the project are sourced from [HugeIcons](https://hugeicons.com/).
+
 
 Feel free to contribute, report issues, or suggest improvements. Happy listening! 🎶
-## Link: https://r3hanspotify.freewebhostmost.com/
+### Link: https://r3hanspotify.freewebhostmost.com/
