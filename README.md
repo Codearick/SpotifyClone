@@ -2,6 +2,8 @@
 
 This repository contains the code for a simple music player web app. The app allows users to browse and play music from different albums. It also includes features such as play/pause, next/previous track, and volume control.
 
+### Check it out 👉🏻 : https://r3hanspotify.freewebhostmost.com/
+
 ## Features
 
 - **Album Display:** Browse through a collection of albums, each with its own cover image, heading, and description.
@@ -61,4 +63,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 Feel free to contribute, report issues, or suggest improvements. Happy listening! 🎶
-### Link: https://r3hanspotify.freewebhostmost.com/
+
