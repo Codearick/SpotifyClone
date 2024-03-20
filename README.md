@@ -8,6 +8,8 @@ This repository contains the code for a simple music player web app. The app all
 
 - **Song List:** View a list of songs within a selected album, including the song title and artist.
 
+- **Responsive Design:** Supports most display sizes including phones, tablets and desktop with Hamburger feature for Navigation in Phone screens.
+
 - **Play Controls:** Play, pause, skip to the next track, or go back to the previous track.
 
 - **Seekbar:** Visual representation of the current playback position and duration.
