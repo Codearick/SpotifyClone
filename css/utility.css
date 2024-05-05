@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+.bg-black{
+    background-color: #1d1d1d;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+    border: #1d1d1d;
+}
+.p-1{
+    padding: 26px;
+    border: #1d1d1d;
+}
+/* Scrollbar Track */
+  ::-webkit-scrollbar {
+    border-radius: 8px;
+    width: 12px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #333;
+  }
+  /* Handle when dragging */
+  ::-webkit-scrollbar-thumb:active {
+    background: #666;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+  /* Corner */
+  ::-webkit-scrollbar-corner {
+    background: #111;
+  }
+
+  
