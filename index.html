@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img width="110" class="invert" src="img/logo.svg" alt="logo">
+                    <div class="close">
+                        <img width="35" class="invert close" src="img/close.svg" alt="">
+                    </div>
+                </div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+
+                <div class="heading">
+                    <div><img class="invert" src="img/playlist.svg" alt=""></div>
+                    <span> Your Library</span>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header rounded">
+                <div class="nav">
+                    <img class="invert hamburger" src="img/hamburger.svg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                        class="injected-svg" data-src="/icons/arrow-left-01-stroke-rounded.svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                        class="injected-svg" data-src="/icons/arrow-right-01-stroke-rounded.svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists bg-grey">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                       </div>
+
+            </div>
+        </div>
+        <div class="playbar">
+            <div class="playbarimg">
+                <img class="invert" src="img/music.svg" alt="">
+            </div>
+            <div class="songinfo">
+                <div class="songname"></div>
+                <div class="songartist"></div>
+            </div>
+            <div class="songbuttons">
+                <img class="invert" id="previous" src="img/prevsong.svg" alt="">
+                <div class="pauseplay">
+                    <img id="pause" src="img/pause.svg" alt="">
+                </div>
+                <img class="invert" id="next" src="img/nextsong.svg" alt="">
+            </div>
+            <div class="seekbar">
+                <div class="songduration"></div>
+                <div class="circle">
+
+                </div>
+                <div class="currenttime"></div>
+            </div>
+            <div class="volume">
+                <div class="volumeimg">
+                <img id="volumeimg" class="invert" src="img/volume.svg" alt="">
+                </div>
+                <div class="volumebar">
+                    <input id="volumerange" type="range" name="volume" id="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
